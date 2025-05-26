@@ -23,6 +23,7 @@
 }
 
 .about-image {
+    text-align: center;
     background: url(../images/picture3.jpg);
     background-position: center;
     background-size: cover;
@@ -34,11 +35,12 @@
 }
 
 .about-image .name {
-  font-size: 2rem;
+  font-size: 3rem;
   color: rgb(252, 252, 252);
+  letter-spacing: 1px;
   position: absolute;
   bottom: 0;
-  left: 35%;
+  left: 0.8em;
 }
 
 .about-card {
