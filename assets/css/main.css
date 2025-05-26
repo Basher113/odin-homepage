@@ -1,0 +1,54 @@
+
+/* Main Start */
+.main {
+  padding: 4em;
+}
+
+.main h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3em;
+}
+
+.project-card {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  min-height: 400px;
+  box-shadow: var(--light-shadow);
+  cursor: pointer;
+}
+
+.project-image {
+    background: url(../images/pexels-markusspiske-1089438.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-header {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.project-header img {
+  height: 20px;
+  width: 20px;
+}
+
+.project p {
+  font-size: 0.8rem;
+  color: rgb(233, 233, 233);
+}
