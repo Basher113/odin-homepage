@@ -61,8 +61,8 @@
     }
 
     .footer-text {
-        padding: 2em 0;
-        margin: 0 auto;
+        padding: 2em 1em;
+        max-inline-size: 100ch;
     }
 
     .footer-image {
@@ -78,7 +78,7 @@
     }
 
     .footer-text .icons img {
-        width: 40px;
-        height: 40px;
+        width: 36px;
+        height: 36px;
     }
 }
