@@ -64,7 +64,8 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(247, 247, 247);
   overflow-x: hidden;
-  width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
   display: grid;
 }
 

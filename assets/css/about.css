@@ -84,8 +84,6 @@
 
 /* Mobile Responsive */
 @media (max-width: 500px) {
-  
-
   .about-container {
     justify-content: center;
     align-items: end;
