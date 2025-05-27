@@ -64,9 +64,9 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(247, 247, 247);
   overflow-x: hidden;
-  max-width: 100vw;
-  min-height: 100vh;
-  display: grid;
+  width: 100vw;
+  height: 100vh;
+  
 }
 
 .playfair-font {
@@ -76,6 +76,12 @@ body {
 .icon {
   width: 32px;
   height: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 
 
