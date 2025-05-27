@@ -64,7 +64,8 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(247, 247, 247);
   overflow-x: hidden;
-  min-width: 100vw;
+  width: 100vw;
+  display: grid;
 }
 
 .playfair-font {
@@ -76,5 +77,11 @@ body {
   height: 32px;
 }
 
+
+@media (max-width: 500px) {
+  html {
+    font-size: 26px;
+  }
+}
 
 
