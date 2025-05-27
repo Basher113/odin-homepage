@@ -5,26 +5,64 @@
     display: flex;
     justify-content: space-evenly;
     gap: 1em;
+    
 }
 
-.footer-left {
+.footer-text {
     font-size: 1.4rem;
     max-inline-size: 30ch;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
     gap: 1em;
 }
 
-.footer-left h2 {
+.footer-text h2 {
     font-size: 2.5rem;
 }
 
-.footer-left .icons {
+.footer-text .icons {
     display: flex;
     justify-content: start;
     gap: 8px;
 }
 
-.footer-right img {
-    max-width: 500px;
+.footer-image{
+    background: url(../images/picture3.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1000px) {
+    .footer-image {
+        width: 400px;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+
+        padding: 0;
+    }
+
+    .footer-text {
+        padding: 2em 0;
+    }
+
+    .footer-image {
+        width: 100vw;
+        height: 400px;
+    }
+
+    .footer-text .icons {
+        gap: 3em;
+   
+    }
+
+    .footer-text .icons img {
+        width: 40px;
+        height: 40px;
+    }
 }
