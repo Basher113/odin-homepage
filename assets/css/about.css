@@ -1,3 +1,5 @@
+
+
 .about-container {
     display: flex;
     justify-content: center;
@@ -44,7 +46,7 @@
   letter-spacing: 1px;
   position: absolute;
   white-space: nowrap;
-  
+  animation: name-slide-desktop 2s ease-in-out;
 }
 
 .about-card {
@@ -70,97 +72,4 @@
   gap: 1em;
   justify-content: end;
   margin-right: 1em;
-}
-/* Tablet/laptop Responsive  */
-@media (max-width: 900px) {
- 
-
-  .about-container {
-    padding: 2em;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-
-  .about-content {
-    display: block;
-  }
-
-  .about-image {
-    float: left;
-    transform: translate(-20px, -40px);
-    width: 300px;
-    height: 350px;
-  }
-  
-  .about-image .name {
-    transform: translate(250px, -300px);
-  }
-
-  .about-card {
-    width: 100%;
-    max-inline-size: none;
-  }
-}
-
-/* Mobile Responsive */
-@media (max-width: 560px) {
-
-  .about-container {
-    padding: 2em 0;
-  }
-
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    min-width: 100%;
-    padding: 0;
-    margin: 0;
-    
-  }
-
-  .about-image {
-    float: none;
-    transform: translate(0, 0);
-    width: 90vw;
-  }
-
-  .about-image .name {
-    transform: translate(0, 0);
-    left: 5%;
-    /* Wrap the text */
-    max-inline-size: 10ch;
-    white-space: wrap;
-  }
-
-  .about-card {
-    display: grid;
-    width: 90%;
-    background-color: transparent;
-    box-shadow: none;
-    gap: 1em;
-    padding: 0;
-  }
-
-  .about-card h3 {
-    font-size: 3rem;
-    font-weight: 500;
-  }
-
-  .about-card p {
-    color: black;
-    font-size: 1rem;
-  }
-
-  .about-background {
-    clip-path: polygon(0 0, 100% 0, 100% 22%, 0 52%);
-  }
-
-  .about-card .social-links {
-    justify-content: center;
-  }
-
-  
 }

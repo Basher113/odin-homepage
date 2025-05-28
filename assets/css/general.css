@@ -68,7 +68,7 @@ body {
   height: 100vh;
 }
 
-.playfair-font {
+.h1, h2,h3,h4,h5,h6 {
   font-family: "Playfair Display", serif;
 }
 
@@ -82,17 +82,3 @@ body {
   gap: 2em;
   width: 100vw;
 }
-
-@media (max-width: 900px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 560px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-
